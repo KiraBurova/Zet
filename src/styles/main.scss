@@ -1,0 +1,17 @@
+@import './normalize.css';
+
+@import './tools/colors';
+@import './common/container/_container.scss';
+@import './common/button/_button.scss';
+@import './common/header/_header.scss';
+@import './common/lines/_lines.scss';
+
+html {
+    font-size: 1px;
+}
+body {
+    background: $wild_sand;
+    overflow: hidden;
+    font-size: 16rem;
+    font-family: 'Open Sans', sans-serif;
+}

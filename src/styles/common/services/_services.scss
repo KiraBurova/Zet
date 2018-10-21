@@ -1,0 +1,20 @@
+.services {
+    &__blocks {
+        display: flex;
+    }
+
+    &__blocks-item {
+        margin-right: 25px;
+        padding-top: 165px;
+        text-align: center;
+    }
+
+    &__blocks-heading {
+        font-size: 16rem;
+        text-transform: uppercase;
+    }
+
+    &__blocks-text {
+        font-size: 14rem;
+    }
+}

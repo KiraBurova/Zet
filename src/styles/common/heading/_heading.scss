@@ -1,0 +1,22 @@
+.heading {
+    text-align: center;
+    position: relative;
+    padding: 20px 0;
+
+    &__title {
+        text-transform: uppercase;
+        color: $ebony_clay;
+        font-weight: 900;
+        font-size: 26rem;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 40px;
+        left: 48%;
+        bottom: 0;
+        background: $trout;
+    }
+}

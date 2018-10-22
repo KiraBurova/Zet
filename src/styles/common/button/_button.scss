@@ -2,9 +2,10 @@
   display: inline-block;
   height: 38px;
   padding: 0 24px;
-  color: $mercury;
+  color: $white;
   text-align: center;
-  font-size: 13px;
+  font-size: 17px;
+  font-family: 'Monserrat', sans-serif;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
@@ -14,8 +15,8 @@
   background-color: transparent;
   border-radius: 25px;
   border: 1px solid $mercury;
-  cursor: pointer;
   box-sizing: border-box;
+  cursor: pointer;
 
   &:hover,
   &:active,

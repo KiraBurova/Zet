@@ -1,0 +1,11 @@
+.pricing {
+    &__tables {
+        display: flex;
+    }
+
+    &__tables-table {
+        height: 500px;
+        width: 33%;
+        border: 1px solid rgba($alto, 0.5);
+    }
+}

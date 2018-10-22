@@ -8,6 +8,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: 'Monserrat', sans-serif;
 
     &__top {
         display: flex;
@@ -27,5 +28,16 @@
     &__menu-text {
         text-transform: uppercase;
         margin-right: 20px;
+    }
+
+    &__title {
+        font-size: 36rem;
+        font-weight: bold;
+    }
+
+    &__sub {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-size: 17rem;
     }
 }

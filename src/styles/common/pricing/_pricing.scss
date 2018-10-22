@@ -1,11 +1,62 @@
 .pricing {
+    padding: 100px 0;
+
+    &__heading {
+        margin-bottom: 70px;
+    }
+
     &__tables {
         display: flex;
     }
 
     &__tables-table {
-        height: 500px;
         width: 33%;
         border: 1px solid rgba($alto, 0.5);
+        font-family: 'Monserrat', sans-serif;
+        color: $ebony_clay;
+        background: $white;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            border-top-width: 5px;
+            border-top-color: $ebony_clay;
+            transform: scale(1.1);
+            z-index: 2;
+        }
+    }
+
+    &__tables-offer {
+        padding: 60px 125px;
+        border-bottom: 1px solid rgba($alto, 0.5);
+        text-align: center;
+    }
+
+    &__tables-title {
+        font-weight: bold;
+        font-size: 20rem;
+    }
+
+    &__tables-price {
+        display: block;
+        font-size: 45rem;
+    }
+
+    &__tables-period {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        text-transform: uppercase;
+    }
+
+    &__tables-description {
+        padding: 65px 80px;
+        line-height: 40rem;
+        text-align: center;
+    }
+
+    &__button {
+        display: block;
+        margin: 0 auto 35px auto;
+        background: $ebony_clay;
     }
 }

@@ -1,5 +1,7 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const SpritesmithPlugin = require('webpack-spritesmith');
+var path = require('path');
 
 module.exports = {
   mode: 'development',
@@ -21,18 +23,14 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader'
       },
-      {
-        test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: 'file-loader',
-        query: {
-          name: '[path][name].[ext]',
-          context: './src'
-        }
-      },
+      {test: /\.png$|jpg|jpeg/, use: [
+        'file-loader?name=i/[hash].[ext]'
+    ]}
     ],
   },
   resolve: {
     extensions: ['.js', '.es6'],
+    modules: ['node_modules', 'spritesmith-generated']
   },
   output: {
     path: __dirname + '/dist',
@@ -47,10 +45,21 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "[name].css"
     }),
-    new HtmlWebpackPlugin(
-        {
-            template: './src/index.html'
-        }
-    )
+    new HtmlWebpackPlugin({
+        template: './src/index.html'
+    }),
+    new SpritesmithPlugin({
+      src: {
+          cwd: path.resolve(__dirname, 'src/assets/img/icons'),
+          glob: '*.png'
+      },
+      target: {
+          image: path.resolve(__dirname, 'src/spritesmith-generated/sprite.png'),
+          css: path.resolve(__dirname, 'src/spritesmith-generated/sprite.scss')
+      },
+      apiOptions: {
+          cssImageRef: '../spritesmith-generated/sprite.png'
+      }
+  })
   ],
 };

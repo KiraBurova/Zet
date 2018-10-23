@@ -1,0 +1,17 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    &__right {
+        background: rgb(72,85,99); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(72,85,99,.5) 0%, rgba(41,50,60,.5) 100%, rgba(41,50,60,.5) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(72,85,99,.5) 0%,rgba(41,50,60,.5) 100%,rgba(41,50,60,.5) 100%); /* Chrome10-25,Safari5.1-6 */
+        background-image: linear-gradient(to bottom, rgba(72,85,99,.5) 0%,rgba(41,50,60,.5) 100%,rgba(41,50,60,.5) 100%), url('../../../assets/img/form.jpg');
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 105px 95px;
+    }
+}

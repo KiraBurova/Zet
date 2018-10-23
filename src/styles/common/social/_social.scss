@@ -1,0 +1,48 @@
+@import '../../../spritesmith-generated/sprite.scss';
+
+.social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    &__item {
+        margin-right: 5px;
+    }
+
+    &__item-twitter {
+        display: block;
+        @include sprite($icon-1);
+    }
+    &__item-in {
+        display: block;
+        @include sprite($icon-2);
+    }
+    &__item-v {
+        display: block;
+        @include sprite($icon-3);
+    }
+    &__item-dribbble {
+        display: block;
+        @include sprite($icon-4);
+    }
+    &__item-mail {
+        display: block;
+        @include sprite($icon-5);
+    }
+    &__item-fb {
+        display: block;
+        @include sprite($icon-6);
+    }
+    &__item-tw {
+        display: block;
+        @include sprite($icon-7);
+    }
+    &__item-google {
+        display: block;
+        @include sprite($icon-8);
+    }
+    &__item-dr {
+        display: block;
+        @include sprite($icon-9);
+    }
+}

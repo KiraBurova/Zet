@@ -1,5 +1,29 @@
 .container {
-    max-width: 1170px;
+    width: 1170px;
     height: 100%;
     margin: 0 auto;
+
+    @media screen and(max-width: 1295px){
+        width: 1000px;
+    }
+
+    @media screen and(max-width: 1135px){
+        width: 900px;
+    }
+
+    @media screen and(max-width: 1030px){
+        width: 800px;
+    }
+
+    @media screen and(max-width: 925px){
+        width: 700px;
+    }
+
+    @media screen and(max-width: 815px){
+        width: 600px;
+    }
+
+    @media screen and(max-width: 700px){
+        width: 80%;
+    }
 }

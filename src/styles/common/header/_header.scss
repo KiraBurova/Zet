@@ -13,12 +13,17 @@
     &__top {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding-top: 32px;
     }
 
     &__main {
         padding: 220px 140px;
         text-align: center;
+
+        @media screen and(max-width: 875px){
+            padding: 220px 0;
+        }
     }
 
     &__menu {

@@ -7,6 +7,11 @@
 
     &__tables {
         display: flex;
+        justify-content: center;
+
+        @media screen and(max-width: 850px){
+            flex-wrap: wrap;
+        }
     }
 
     &__tables-table {
@@ -24,10 +29,22 @@
             transform: scale(1.1);
             z-index: 2;
         }
+
+        @media screen and(max-width: 850px){
+            width: 48%;
+        }
+        @media screen and(max-width: 610px){
+            width: 100%;
+            margin-bottom: 10px;
+            &:hover {
+                transform: none;
+                border: 1px solid rgba($alto, 0.5);
+            }
+        }
     }
 
     &__tables-offer {
-        padding: 60px 125px;
+        padding: 60px 0;
         border-bottom: 1px solid rgba($alto, 0.5);
         text-align: center;
     }
@@ -52,6 +69,9 @@
         padding: 65px 80px;
         line-height: 40rem;
         text-align: center;
+        @media screen and(max-width: 950px){
+            padding: 65px 20px;
+        }
     }
 
     &__button {

@@ -1,5 +1,8 @@
 .contact {
     display: flex;
+    @media screen and (max-width: 910px){
+        flex-wrap: wrap;
+    }
     &__right {
         background: rgb(72,85,99); /* Old browsers */
         background: -moz-linear-gradient(top, rgba(72,85,99,.5) 0%, rgba(41,50,60,.5) 100%, rgba(41,50,60,.5) 100%); /* FF3.6-15 */
@@ -8,8 +11,17 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
-    &__left {
+    &__left,
+    &__right {
         width: 50%;
+        @media screen and (max-width: 910px){
+            width: 100%;
+        }
+    }
+    &__left {
+        @media screen and (max-width: 910px){
+            height: 639px;
+        }
     }
     &__form {
         display: flex;
@@ -18,6 +30,21 @@
         align-items: center;
         padding: 105px 95px;
         color: $white;
+    }
+    &__form-input,
+    &__form-textarea {
+        width: 300px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid $white;
+        border-radius: 2px;
+        margin-bottom: 25px;
+    }
+    &__form-textarea {
+        height: 150px;
+    }
+    &__form-label {
+        padding-right: 70px;
     }
     &__map {
         width: 100%;

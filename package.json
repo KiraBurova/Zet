@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.1.2",
+    "@glidejs/glide": "^3.2.3",
     "@webpack-cli/init": "^0.1.2",
     "webpack-cli": "^3.1.2",
     "webpack-spritesmith": "^0.5.3"

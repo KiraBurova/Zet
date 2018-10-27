@@ -1,0 +1,18 @@
+@for $i from 1 through 5 {
+    .brands__brand:nth-child(#{$i}) {
+        background-image: url('../../../assets/img/brands/brand-#{$i}.png');
+        background-repeat: no-repeat;
+        width: 166px;
+        height: 64px;
+    } 
+}
+
+.brands {
+    height: 150px;
+    &__inner {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

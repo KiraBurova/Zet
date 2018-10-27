@@ -9,6 +9,7 @@
     background-position: center;
     background-repeat: no-repeat;
     font-family: 'Monserrat', sans-serif;
+    overflow-y: hidden;
 
     &__top {
         display: flex;
@@ -25,7 +26,7 @@
             padding: 220px 0;
         }
         @media screen and (max-width: 750px){
-            padding: 440px 0;
+            padding: 300px 0 160px 0;
         }
     }
 
@@ -86,5 +87,32 @@
         color: $black;
         text-decoration: none;
         border: 1px solid rgba($alto, 0.5);
+    }
+    &__arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 50px;
+        width: 50px;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 1px solid rgba($alto, 0.5);
+        cursor: pointer;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 50px;
+            height: 230px;
+            width: 1px;
+            background: $white;
+            @media screen and (max-width: 750px){
+                height: 210px;
+            }
+        }
+    }
+
+    &__arrow-inner {
+        @include sprite($arrow);
     }
 }

@@ -24,6 +24,9 @@
         @media screen and(max-width: 875px){
             padding: 220px 0;
         }
+        @media screen and (max-width: 750px){
+            padding: 440px 0;
+        }
     }
 
     &__menu {
@@ -45,18 +48,43 @@
         font-weight: lighter;
         font-size: 17rem;
     }
-
     &__nav {
-        list-style: none;
+        position: absolute;
+        overflow: hidden;
+        top: 100px;
+        width: 150px;
+        max-height: 0;
         padding: 0;
         margin: 0;
+        list-style: none;
+        text-align: center;
+        transition: max-height 0.5s ease;
+        @media screen and (max-width: 750px){
+            width: 50%;
+            left: 25%;
+            top: 100px;
+        }
+        @media screen and (max-width: 410px){
+            width: 100%;
+            left: 0;
+        }
     }
+    &__nav.open {
+        max-height: 800px;
+    }
+
     &__nav-item {
         height: 40px;
     }
     &__nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
         background: $white;
         color: $black;
-        padding: 20px 50px;
+        text-decoration: none;
+        border: 1px solid rgba($alto, 0.5);
     }
 }

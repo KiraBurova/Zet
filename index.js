@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n // import Glide from '@glidejs/glide/dist/glide.modular.esm'\n// var glide = new Glide('.clients .glide', {\n//     type: 'carousel'\n//   })\n//   glide.mount()\n// Menu\n\nconst menuBtn = document.querySelector('.header__lines');\nconst menuNav = document.querySelector('.header__nav');\n\nfunction toggleMenu() {\n  menuNav.classList.toggle('open');\n}\n\nmenuBtn.addEventListener('click', toggleMenu);\nlet anchorlinks = document.querySelectorAll('a[href^=\"#\"]');\n\nfor (let item of anchorlinks) {\n  // relitere\n  item.addEventListener('click', e => {\n    let hashval = item.getAttribute('href');\n    let target = document.querySelector(hashval);\n    target.scrollIntoView({\n      behavior: 'smooth',\n      block: 'start'\n    });\n    history.pushState(null, null, hashval);\n    e.preventDefault();\n  });\n}\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 

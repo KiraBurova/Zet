@@ -533,7 +533,7 @@ template {
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, rgba(72, 85, 99, 0.5) 0%, rgba(41, 50, 60, 0.5) 100%, rgba(41, 50, 60, 0.5) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background-image: linear-gradient(to bottom, rgba(72, 85, 99, 0.5) 0%, rgba(41, 50, 60, 0.5) 100%, rgba(41, 50, 60, 0.5) 100%), url("../../../assets/img/background.jpg");
+  background-image: linear-gradient(to bottom, rgba(72, 85, 99, 0.5) 0%, rgba(41, 50, 60, 0.5) 100%, rgba(41, 50, 60, 0.5) 100%), url("./assets/img/background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -667,13 +667,13 @@ template {
   .services__blocks-text {
     font-size: 14rem; }
   .services .services__blocks-item:nth-child(1) .services__blocks-circle {
-    background-image: url("../../../assets/img/services/services-1.png"), linear-gradient(to bottom, #485563 0%, #29323c 100%); }
+    background-image: url("./assets/img/services/services-1.png"), linear-gradient(to bottom, #485563 0%, #29323c 100%); }
   .services .services__blocks-item:nth-child(2) .services__blocks-circle {
-    background-image: url("../../../assets/img/services/services-2.png"), linear-gradient(to bottom, #485563 0%, #29323c 100%); }
+    background-image: url("./assets/img/services/services-2.png"), linear-gradient(to bottom, #485563 0%, #29323c 100%); }
   .services .services__blocks-item:nth-child(3) .services__blocks-circle {
-    background-image: url("../../../assets/img/services/services-3.png"), linear-gradient(to bottom, #485563 0%, #29323c 100%); }
+    background-image: url("./assets/img/services/services-3.png"), linear-gradient(to bottom, #485563 0%, #29323c 100%); }
   .services .services__blocks-item:nth-child(4) .services__blocks-circle {
-    background-image: url("../../../assets/img/services/services-4.png"), linear-gradient(to bottom, #485563 0%, #29323c 100%); }
+    background-image: url("./assets/img/services/services-4.png"), linear-gradient(to bottom, #485563 0%, #29323c 100%); }
 
 .works {
   padding: 100px 0;
@@ -754,7 +754,7 @@ template {
 .team {
   padding: 100px 0;
   text-align: center;
-  background: linear-gradient(to bottom, rgba(72, 85, 99, 0.5) 0%, rgba(41, 50, 60, 0.5) 100%, rgba(41, 50, 60, 0.5) 100%), url("../../../assets/img/team/bg.jpg");
+  background: linear-gradient(to bottom, rgba(72, 85, 99, 0.5) 0%, rgba(41, 50, 60, 0.5) 100%, rgba(41, 50, 60, 0.5) 100%), url("./assets/img/team/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -803,7 +803,7 @@ template {
     margin-top: 80px; }
 
 .team__items-item:nth-child(1) .team__items-pic {
-  background-image: url("../../../assets/img/team/team-1.jpg");
+  background-image: url("./assets/img/team/team-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -814,7 +814,7 @@ template {
       height: 100%; } }
 
 .team__items-item:nth-child(2) .team__items-pic {
-  background-image: url("../../../assets/img/team/team-2.jpg");
+  background-image: url("./assets/img/team/team-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -825,7 +825,7 @@ template {
       height: 100%; } }
 
 .team__items-item:nth-child(3) .team__items-pic {
-  background-image: url("../../../assets/img/team/team-3.jpg");
+  background-image: url("./assets/img/team/team-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -836,7 +836,7 @@ template {
       height: 100%; } }
 
 .team__items-item:nth-child(4) .team__items-pic {
-  background-image: url("../../../assets/img/team/team-4.jpg");
+  background-image: url("./assets/img/team/team-4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -960,7 +960,7 @@ template {
     /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(72, 85, 99, 0.5) 0%, rgba(41, 50, 60, 0.5) 100%, rgba(41, 50, 60, 0.5) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background-image: linear-gradient(to bottom, rgba(72, 85, 99, 0.5) 0%, rgba(41, 50, 60, 0.5) 100%, rgba(41, 50, 60, 0.5) 100%), url("../../../assets/img/form.jpg");
+    background-image: linear-gradient(to bottom, rgba(72, 85, 99, 0.5) 0%, rgba(41, 50, 60, 0.5) 100%, rgba(41, 50, 60, 0.5) 100%), url("./assets/img/form.jpg");
     background-size: cover;
     background-repeat: no-repeat; }
   .contact__left, .contact__right {
@@ -1026,31 +1026,31 @@ template {
     padding: 15px 35px; }
 
 .brands__brand:nth-child(1) {
-  background-image: url("../../../assets/img/brands/brand-1.png");
+  background-image: url("./assets/img/brands/brand-1.png");
   background-repeat: no-repeat;
   width: 166px;
   height: 64px; }
 
 .brands__brand:nth-child(2) {
-  background-image: url("../../../assets/img/brands/brand-2.png");
+  background-image: url("./assets/img/brands/brand-2.png");
   background-repeat: no-repeat;
   width: 166px;
   height: 64px; }
 
 .brands__brand:nth-child(3) {
-  background-image: url("../../../assets/img/brands/brand-3.png");
+  background-image: url("./assets/img/brands/brand-3.png");
   background-repeat: no-repeat;
   width: 166px;
   height: 64px; }
 
 .brands__brand:nth-child(4) {
-  background-image: url("../../../assets/img/brands/brand-4.png");
+  background-image: url("./assets/img/brands/brand-4.png");
   background-repeat: no-repeat;
   width: 166px;
   height: 64px; }
 
 .brands__brand:nth-child(5) {
-  background-image: url("../../../assets/img/brands/brand-5.png");
+  background-image: url("./assets/img/brands/brand-5.png");
   background-repeat: no-repeat;
   width: 166px;
   height: 64px; }

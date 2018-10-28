@@ -625,6 +625,8 @@ template {
     background-position: -49px -70px;
     width: 24px;
     height: 13px; }
+  .header__arrow-link {
+    display: block; }
 
 .services {
   padding: 100px 0; }
@@ -1026,31 +1028,31 @@ template {
     padding: 15px 35px; }
 
 .brands__brand:nth-child(1) {
-  background-image: url("../../../assets/img/brands/brand-1.png");
+  background-image: url("./assets/img/brands/brand-1.png");
   background-repeat: no-repeat;
   width: 166px;
   height: 64px; }
 
 .brands__brand:nth-child(2) {
-  background-image: url("../../../assets/img/brands/brand-2.png");
+  background-image: url("./assets/img/brands/brand-2.png");
   background-repeat: no-repeat;
   width: 166px;
   height: 64px; }
 
 .brands__brand:nth-child(3) {
-  background-image: url("../../../assets/img/brands/brand-3.png");
+  background-image: url("./assets/img/brands/brand-3.png");
   background-repeat: no-repeat;
   width: 166px;
   height: 64px; }
 
 .brands__brand:nth-child(4) {
-  background-image: url("../../../assets/img/brands/brand-4.png");
+  background-image: url("./assets/img/brands/brand-4.png");
   background-repeat: no-repeat;
   width: 166px;
   height: 64px; }
 
 .brands__brand:nth-child(5) {
-  background-image: url("../../../assets/img/brands/brand-5.png");
+  background-image: url("./assets/img/brands/brand-5.png");
   background-repeat: no-repeat;
   width: 166px;
   height: 64px; }

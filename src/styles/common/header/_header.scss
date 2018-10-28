@@ -111,8 +111,10 @@
             }
         }
     }
-
     &__arrow-inner {
         @include sprite($arrow);
+    }
+    &__arrow-link {
+        display: block;
     }
 }

@@ -472,55 +472,55 @@ template {
   .social__item-twitter {
     display: block;
     background-image: url(./assets/img/icons/sprite.png);
-    background-position: -25px -70px;
+    background-position: -130px 0px;
     width: 24px;
     height: 24px; }
   .social__item-in {
     display: block;
     background-image: url(./assets/img/icons/sprite.png);
-    background-position: -70px 0px;
+    background-position: -95px -70px;
     width: 25px;
     height: 25px; }
   .social__item-v {
     display: block;
     background-image: url(./assets/img/icons/sprite.png);
-    background-position: -70px -25px;
+    background-position: -70px -95px;
     width: 25px;
     height: 25px; }
   .social__item-dribbble {
     display: block;
     background-image: url(./assets/img/icons/sprite.png);
-    background-position: 0px -70px;
+    background-position: -95px -95px;
     width: 25px;
     height: 25px; }
   .social__item-mail {
     display: block;
     background-image: url(./assets/img/icons/sprite.png);
-    background-position: -70px -50px;
+    background-position: 0px -130px;
     width: 25px;
     height: 19px; }
   .social__item-fb {
     display: block;
     background-image: url(./assets/img/icons/sprite.png);
-    background-position: 0px 0px;
+    background-position: -95px 0px;
     width: 35px;
     height: 35px; }
   .social__item-tw {
     display: block;
     background-image: url(./assets/img/icons/sprite.png);
-    background-position: -35px 0px;
+    background-position: -95px -35px;
     width: 35px;
     height: 35px; }
   .social__item-google {
     display: block;
     background-image: url(./assets/img/icons/sprite.png);
-    background-position: 0px -35px;
+    background-position: 0px -95px;
     width: 35px;
     height: 35px; }
   .social__item-dr {
     display: block;
     background-image: url(./assets/img/icons/sprite.png);
-    background-position: -35px -35px;
+    background-position: -35px -95px;
     width: 35px;
     height: 35px; }
 
@@ -622,7 +622,7 @@ template {
           height: 210px; } }
   .header__arrow-inner {
     background-image: url(./assets/img/icons/sprite.png);
-    background-position: -49px -70px;
+    background-position: -130px -24px;
     width: 24px;
     height: 13px; }
 

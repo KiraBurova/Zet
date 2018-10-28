@@ -8,6 +8,14 @@ var path = require('path');
 module.exports = {
     mode: 'development',
     entry: './src/app.js',
+    output: {
+        path: __dirname + '/dist',
+        filename: 'index.js'
+    },
+    resolve: {
+        extensions: ['.js', '.es6'],
+        modules: ['node_modules', 'spritesmith-generated']
+    },
     module: {
         rules: [
             {
@@ -29,17 +37,6 @@ module.exports = {
                 'file-loader?name=i/[hash].[ext]'
             ]}
         ]
-    },
-    resolve: {
-        extensions: ['.js', '.es6'],
-        modules: ['node_modules', 'spritesmith-generated'],
-        alias: {
-            'assets': path.resolve('src/assets/img')
-        }
-    },
-    output: {
-        path: __dirname + '/dist',
-        filename: 'index.js'
     },
     devServer: {
         port: 8080,

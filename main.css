@@ -626,7 +626,8 @@ template {
     width: 24px;
     height: 13px; }
   .header__arrow-link {
-    display: block; }
+    display: block;
+    padding: 20px; }
 
 .services {
   padding: 100px 0; }
